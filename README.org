@@ -1,0 +1,10 @@
+This is a fairly small recreation of The Evolution of Trust by ncase in a
+library format written in Rust.
+
+A brief documentation can be generated using ~cargo doc --open~.
+
+This library, originally in C#, was one of the very things I ever wrote. As I
+got aquainted with Rust, I did this rewrite for old time's sake.  Aimed as an
+answer to a certain one day challenge.
+
+Features, License and more information can be found in Cargo.toml.

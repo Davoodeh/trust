@@ -1,0 +1,18 @@
+[package]
+name = "trust"
+authors = ["M. Yas. Davoodeh <MYDavoodeh@gmail.com>"]
+description = "A Rust rewrite of trust library used in \"The Evolution of Trust\" by Nicky Case"
+version = "0.1.0"
+rust-version = "1.65"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[features]
+default = []
+rand = ["dep:rand"]
+
+[dependencies]
+rand = { version = "0.8", optional = true }
+
+dyn-clone = "1.0"
+auto_impl = "1.1"
