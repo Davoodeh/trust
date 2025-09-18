@@ -11,13 +11,10 @@ pub enum ArenaError {
 
 impl fmt::Display for ArenaError {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(
-            f,
-            "{}",
-            match self {
-                Self::UnknownPlayer => "The given ID in the players list is not in constructors.",
-            }
-        )
+        match self {
+            Self::UnknownPlayer => "The given ID in the players list is not in constructors.",
+        }
+        .fmt(f)
     }
 }
 

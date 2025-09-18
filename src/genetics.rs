@@ -9,7 +9,7 @@ pub enum GeneticStrategy {
 }
 
 impl GeneticStrategy {
-    /// Apply a strategy on the scores aquired by each type (usize is the ID/type of group).
+    /// Apply a strategy on the scores acquired by each type (usize is the ID/type of group).
     ///
     /// This only works if the list is already sorted from the best type to the worst in score.
     /// Note that the results may be unsorted.
